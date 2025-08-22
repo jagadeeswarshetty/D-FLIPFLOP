@@ -1,0 +1,41 @@
+--> D Flip-Flop Explanation
+
+A D Flip-Flop (Data or Delay Flip-Flop) is a memory element that stores 1 bit of data.
+
+It captures the value of the input D only on the active edge of the clock (rising or falling, depending on design).
+
+The output Q then holds this value until the next active clock edge.
+
+Working Principle
+
+When the clock edge comes:
+
+If D = 1 → then Q becomes 1.
+
+If D = 0 → then Q becomes 0.
+
+At other times (between clock edges), the output remains stable.
+
+Truth Table (Positive Edge Triggered)
+
+Clock Edge	D	Q(next)
+↑ (rising)	0	0
+↑ (rising)	1	1
+no edge	X	Q(prev)
+
+X means "don’t care".
+
+Q(prev) means output stays unchanged.
+
+Key Points
+
+Acts like a 1-bit register.
+
+Used in counters, shift registers, memory units.
+
+Eliminates the problem of uncertain states in SR Flip-Flop.
+
+Block Diagram (Conceptual)
+
+   D ----->| D Flip-Flop |-----> Q
+   CLK --->|             |
