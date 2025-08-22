@@ -21,7 +21,7 @@ If Q = 0 then Q' will be 1.
 If Q = 1 then Q' will be 0.
 
 
-
+---
 
 ### Advantages of D Flip-Flop
 - **Simple Design**: Easy to implement and understand compared to other flip-flops.  
