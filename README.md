@@ -5,6 +5,8 @@ It captures the value of the input D only on the active edge of the clock (risin
 
 The output Q then holds this value until the next active clock edge.
 
+---
+
 ### Working Principle
 
 <img src = "D-Flip-Flop.png" alt = "Circuit & Truth Table">
